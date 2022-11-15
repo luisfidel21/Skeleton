@@ -1,0 +1,29 @@
+{
+  "name": "skeleton",
+  "version": "1.0.0",
+  "description": "echo \"# Skeleton\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/luisfidel21/Skeleton.git\r git push -u origin main",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisAlomia/Skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisAlomia/Skeleton/issues"
+  },
+  "homepage": "https://github.com/LuisAlomia/Skeleton#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
